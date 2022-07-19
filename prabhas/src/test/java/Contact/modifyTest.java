@@ -4,7 +4,8 @@ import org.testng.annotations.Test;
 
 public class modifyTest {
 @Test
-public void updatecontactTEST() {
+public void updatedeleteadcontactTEST() {
 	System.out.println("update fans number");
+	System.out.println("additio od methodd");
 }
 }
