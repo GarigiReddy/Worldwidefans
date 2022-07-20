@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="regressiontest" duration-ms="85" started-at="2022-07-20T12:12:20 IST" finished-at="2022-07-20T12:12:20 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreatecontactTest.CreateonlyTest()[pri:0, instance:Contact.CreatecontactTest@5a1c0542]" name="CreateonlyTest" class="Contact.CreatecontactTest"/>
+        <method signature="rebelTest.decentTest()[pri:0, instance:Contact.rebelTest@1f7030a6]" name="decentTest" class="Contact.rebelTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test name="Test" duration-ms="85" started-at="2022-07-20T12:12:20 IST" finished-at="2022-07-20T12:12:20 IST">
+      <class name="Contact.CreatecontactTest">
+        <test-method status="PASS" signature="CreateonlyTest()[pri:0, instance:Contact.CreatecontactTest@5a1c0542]" name="CreateonlyTest" duration-ms="3" started-at="2022-07-20T12:12:20 IST" finished-at="2022-07-20T12:12:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateonlyTest -->
+      </class> <!-- Contact.CreatecontactTest -->
+      <class name="Contact.rebelTest">
+        <test-method status="PASS" signature="decentTest()[pri:0, instance:Contact.rebelTest@1f7030a6]" name="decentTest" duration-ms="13" started-at="2022-07-20T12:12:20 IST" finished-at="2022-07-20T12:12:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- decentTest -->
+      </class> <!-- Contact.rebelTest -->
+    </test> <!-- Test -->
+  </suite> <!-- regressiontest -->
+</testng-results>

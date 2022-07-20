@@ -3,11 +3,11 @@ package Contact;
 import org.testng.annotations.Test;
 
 public class CreatecontactTest {
-@Test
+@Test(groups= {"regressionTest"})
 public void CreateonlyTest() {
 	System.out.println("create contact for die hard fans");
 }
-@Test
+@Test(groups={"smokeTest"})
 public void deleteTest() {
 	System.out.println("delete fake numbers");
 }
